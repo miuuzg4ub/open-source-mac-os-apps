@@ -1,24 +1,27 @@
 # Contributing Guidelines
 
-Thank you for contributing to the list of open-source macOS applications!
+Thank you for considering contributing to the Open Source macOS Apps list!
 
-## Add a New App
+## Guidelines for Adding Apps
 
-To add a new application, please ensure:
-- The project is **open-source** with a public repository and a recognized open-source license.
-- The app natively supports **macOS** (written in Swift, SwiftUI, Objective-C, Flutter, etc.).
-- The entry is placed under the appropriate category in alphabetical order.
+To add a new open-source macOS app to the list, please ensure:
 
-### Entry Format
+1. The app is **open-source** with a public repository and clear license.
+2. The app is primarily built for **macOS** (native Swift/Objective-C, Flutter, Electron, etc.).
+3. The entry is added under the appropriate category.
 
-```markdown
-- [App Name](https://github.com/user/repo) - Short description of the app. `Language/Framework` `License`
+### Formatting Rule
+
+Add entries using the following standard format:
+
+```
+- [App Name](https://github.com/user/repo) - Short concise description. `License` `Language` `[Platform]`
 ```
 
-## Guidelines
+### Pull Request Checklist
 
-- Keep descriptions concise, accurate, and neutral.
-- Verify that links to the repository and license are working.
-- Avoid adding duplicate entries or unmaintained projects.
+- [ ] App is listed under the correct section
+- [ ] Links are active and point to the source repository
+- [ ] Alphabetical order is maintained within the category
 
-Thank you for helping keep this list updated for the community!
+Thank you for helping keep this list curated and accurate!
